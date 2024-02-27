@@ -2,7 +2,7 @@ h1 {
     color: aliceblue;
     border: 2px solid blanchedalmond;
     margin: 30px ;
-    
+    border-radius: 25px
 
 }
 
@@ -20,5 +20,6 @@ body {
     font-family: Arial;
     width: 150px;
     height: 160px;
+    
 }
 
