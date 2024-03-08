@@ -1,4 +1,8 @@
-div, h2 {
+.conter{
+    text-align: center;
+    border: 1px solid;
+}
+h1 {
     color: rgb(0, 0, 0);
     border: 5px solid blanchedalmond;
     margin: 30px;
