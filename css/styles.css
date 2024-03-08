@@ -1,4 +1,4 @@
-h1 {
+div, h2 {
     color: rgb(0, 0, 0);
     border: 5px solid blanchedalmond;
     margin: 30px;
@@ -29,7 +29,7 @@ body {
     height: 160px;
     
 }
-p{
+/*p{
     color: blue;
 
 }
