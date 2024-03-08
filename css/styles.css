@@ -3,14 +3,16 @@
     border: 5px solid;
 }
 div h1 {
+    color:darkred;
+
+}
+h1 {
     color: rgb(0, 0, 0);
-    border: 5px solid blanchedalmond;
+    border: 5px solid darkred;
+    text-align: center;
     margin: 30px;
     border-radius: 25px;
     padding: 10px ;
-
-}
-
     
 }
 
@@ -35,6 +37,8 @@ body {
     width: 1000px;
     height: 160px;
     
+}
+.conter{
 }
 /*p{
     color: blue;
