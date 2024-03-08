@@ -1,13 +1,16 @@
 .conter{
     text-align: center;
-    border: 10px solid;
+    border: 5px solid;
 }
-h1 {
+div h1 {
     color: rgb(0, 0, 0);
     border: 5px solid blanchedalmond;
     margin: 30px;
     border-radius: 25px;
     padding: 10px ;
+
+}
+
     
 }
 
