@@ -1,6 +1,7 @@
 .conter{
     text-align: center;
-    border: 5px solid;
+    margin: auto;
+    
 }
 
 
@@ -9,10 +10,9 @@
 h1 {
     color: rgb(0, 0, 0);
     border: 5px solid darkred;
-    text-align: center;
-    margin: 30px;
+    margin: auto;
     border-radius: 25px;
-    padding: 10px ;
+    text-align: center
     
 }
 
@@ -25,7 +25,10 @@ h2 {
 
 }
 body{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.marazulseguros.com.br%2FGIFs-Get-the-best-GIF-on-GIPHY-2856991.html&psig=AOvVaw3DA0fxP6IupvivE0NIDEdL&ust=1709413957805000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMiS0aX904QDFQAAAAAdAAAAABAR);
+    background-image: url(../img/15877412015ea302117eb45_1587741201_3x2_md.jpgb);
+    background-repeat:no-repeat;
+    background-position: center;
+    
 }
 body {
     background-color: aliceblue;
@@ -39,10 +42,4 @@ body {
     
 }
 
-/*p{
-    color: blue;
 
-}
-#vermelho{
-    color: rgb(56, 42, 165);
-}
