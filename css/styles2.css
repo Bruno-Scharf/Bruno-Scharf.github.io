@@ -36,7 +36,7 @@ a:hover{
 header{
     
     width: 100%;
-    background-color:dimgray;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -76,10 +76,37 @@ header{
 
 
 body{
-    background-image: url();
+    background-image: url(../img/396719533_919915649501999_7153134508306083275_n.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
 
+}
+
+
+.botao{
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:grey;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: center;
+    width: 24.8%;
+    height: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(255, 255, 255);
+    }
+.botao:hover{
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2)}
+
+.ll{
+    text-align: center;
+}
+
+.conteiner-logo h1{
+    color: aliceblue;
 }
