@@ -76,11 +76,7 @@ header{
 
 
 body{
-    background-image: url(../img/396719533_919915649501999_7153134508306083275_n.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: black;
 
 }
 
@@ -109,4 +105,37 @@ body{
 
 .conteiner-logo h1{
     color: aliceblue;
+}
+
+
+
+img{
+    border: 10px solid black;
+    animation: my-animation 3s infinite;
+    border-color: rgb(40, 158, 11);
+    border-color: red;
+    border-color: rgb(59, 38, 179);
+}
+
+
+
+.img{
+    border: 10px solid black;
+    animation: my-animation 3s infinite;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@keyframes my-animation {
+    0% {
+        border-color: rgb(59, 38, 179);
+    }
+    50% {
+        border-color: red;
+    }
+    100% {
+        border-color: rgb(40, 158, 11);
+    }
+
 }
