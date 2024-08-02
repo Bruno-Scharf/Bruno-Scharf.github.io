@@ -1,0 +1,44 @@
+:root{
+    --cor1:#222;
+    --cor2:#333;
+
+}
+
+
+
+
+div{
+    text-align: center;
+    width: 30%;
+    min-width: 280px;
+}
+.simples {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    opacity: 0.90;
+    display: block;
+    text-decoration:none;
+    font-size: 25px;
+}
+
+
+.simples h1{
+    color:aliceblue ; 
+    border: 5px solid saddlebrown;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.simples h2{
+    color: black;
+    border: 5px solid saddlebrown;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
