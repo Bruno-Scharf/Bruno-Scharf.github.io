@@ -1,44 +1,18 @@
 :root{
-    --cor1:#222;
-    --cor2:#333;
+    --cor1:orange;
+    --cor2:#2f86d6;
+    --cor3:yellow;
+    --cor4:gray;
+    --cor5:white;
+    --cor6:green;
+    --cor7:black;
 
 }
 
 
-
-
-div{
+h1,p{
     text-align: center;
-    width: 30%;
-    min-width: 280px;
-}
-.simples {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    opacity: 0.90;
-    display: block;
-    text-decoration:none;
+    margin: 20px 500px 20px 500px ;
     font-size: 25px;
-}
-
-
-.simples h1{
-    color:aliceblue ; 
-    border: 5px solid saddlebrown;
-    margin: auto;
-    border-radius: 25px;
-    text-align: center;
-}
-
-.simples h2{
     color: black;
-    border: 5px solid saddlebrown;
-    border-radius: 20px;
-}
-
-p{
-    text-align: center;
-    margin: auto;
-    font-size: 25px;
 }
