@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 .header{
-    background: var(--cor4);
+    background: var(--cor7);
     display: flex;
     justify-content: space-between;
     padding: 20px;
