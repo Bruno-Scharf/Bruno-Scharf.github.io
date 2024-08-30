@@ -10,12 +10,13 @@ a{
     text-decoration: none;
 }
 .header{
-    background: var(--cor7);
+    background: var(--cor);
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;  
 }
 .menu{
     display: flex;
