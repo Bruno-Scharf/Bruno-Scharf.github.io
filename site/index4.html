@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Vôlei</title>
+    <link rel="stylesheet" href="/site/css/header.css">
+    <link rel="stylesheet" href="/site/css/footer.css">
+    <style>
+        body {
+        font-family: 'Verdana', sans-serif;
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        text-align: center;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 50px;
+            padding-top:100px ;
+            height: 50%;
+        }
+        th {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            height: 100%;
+        }
+        td {
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+            height: 100%;
+        }
+        tr:nth-child(even) {
+            background-color: #d3d3d3;
+        }
+        tr:nth-child(odd) {
+            background-color: #808080;
+        }
+        th, td {
+            border: 1px solid #000;
+        }
+        .tt {
+            text-align: center;
+            margin-top: 150px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1>NAV:</h1>
+            <a href="index.html"> <button class="botao">informação</button>
+            </a>
+            <a href="index2.html"> <button class="botao">Regras</button>
+            </a>
+            <a href="index3.html"> <button class="botao">historia</button>
+            </a>
+            <a href="index4.html"><button class="botao">Tabela</button></a>
+    
+    
+    
+        </nav> 
+    </header>
+
+    <h1 class="tt">Tabela de Posições no Vôlei</h1>
+
+    <table>
+        <tr>
+            <th>Posição</th>
+            <th>Função</th>
+            <th>Exemplo de Jogador</th>
+        </tr>
+        <tr>
+            <td>Levantador</td>
+            <td>Distribuir as jogadas</td>
+            <td>Exemplo: Bruninho</td>
+        </tr>
+        <tr>
+            <td>Oposto</td>
+            <td>Principal atacante</td>
+            <td>Exemplo: Wallace</td>
+        </tr>
+        <tr>
+            <td>Ponteiro</td>
+            <td>Recepção e ataque</td>
+            <td>Exemplo: Lucarelli</td>
+        </tr>
+        <tr>
+            <td>Central</td>
+            <td>Bloqueio e ataque no meio</td>
+            <td>Exemplo: Lucão</td>
+        </tr>
+        <tr>
+            <td>Líbero</td>
+            <td>Defesa e recepção</td>
+            <td>Exemplo: Serginho</td>
+        </tr>
+    </table>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Volei</p>
+        </div>
+    </footer>
+
+</body>
+</html>
