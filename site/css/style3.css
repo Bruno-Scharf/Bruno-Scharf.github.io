@@ -1,5 +1,5 @@
 :root{
-    --cor1: #c2185b ;
+    --cor1: aliceblue;
     --cor2:#888;
     --cor3:#d32f2f;
 }
@@ -7,7 +7,7 @@
 
 
 h1 {
-    color: #c2185b;
+    color:var(--cor3) ;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
@@ -25,7 +25,7 @@ p {
 body {
     font-family: Arial, sans-serif;
     background-color: #1a1a1a;
-    color: #e0e0e0;
+    color: var(--cor1);
     margin: 0;
     padding: 0;
     display: flex;
@@ -44,9 +44,9 @@ body {
     width: 90%;
     margin: 100px auto 20px; 
     padding: 20px;
-    background-color: #1c1c1c;
+    background-color: #333;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
 
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .timeline-item h3 {
-    color: #c2185b;
+    color: var(--cor3);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
@@ -73,7 +73,7 @@ body {
 .timeline-item p {
     margin: 0;
     text-align: center;
-    color: #555;
+    color: var(--cor1);
     line-height: 1.6;
     margin-bottom: 20px;
     max-width: 800px;

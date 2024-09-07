@@ -1,170 +1,96 @@
-:root{
-    --cor1:orange;
-    --cor2:#2f86d6;
-    --cor3:yellow;
-    --cor4:gray;
-    --cor5:white;
-    --cor6:green;
-    --cor7:black;
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; 
+    color: #e0e0e0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 
-/*p, h1{
-    text-align: center;
-    margin: 20px 500px 20px 500px ;
-    font-size: 10px;
-    color: black;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
 }
 
-img{
-    max-width: 100%;
-    display: inline-block;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 468px;
-    */
 
-.conteiner{
-    padding: 100px 0px;
-    margin: 50px;
+.noticias {
+    width: 100%;
+    max-width: 1200px; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
-.container-cards-pais{
-    max-width: 1024px;
-    padding: 40px 0px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: red;
-}
-.card{
-    width: 280px;
-    height: 450px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 10px 0 0 0;
-    text-align: center;
-    flex-flow: column wrap;
-    gap: 20px;
-    margin: 50px 0;
+#sobre{
+    font-size: 20px;
 }
 
-.container-card-imagem{
-    height: 150px;
+.noticia {
+    background-color: #1e1e1e; 
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+    width: 90%; 
+    max-width: 600px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-.card-info{
-    flex-grow: 1;
-}
-.container-card-imagem img {
+
+
+section {
     width: 100%;
-    height: 100%;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-/*
-.modificar{
-    width:100%;
-    position: relative;
-    z-index: -1;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.imagem{
-    position: relative;
-    width: 50%;
-}
-.legenda{
-    position: absolute;
-    left: 10px;
-    bottom:10px;
-}
-.legenda a {
-    margin: 0;
-    color: aliceblue;
-    font-size: 20px;
-}
-.imagem:hover .legenda{
-    visibility: visible;
-
-}
-.imagem:hover {
-    background: linear-gradient(100deg, rgba(0,0,0,0) 9.74%, #000 100%);
-}
-.img2{
-    position: absolute;
-
-}
-*/
-
-
-
-
-
-.imagem{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    gap: 20px;
-    margin: 20px 30px 20px 50px;
-}
-.imagens{
-    max-width: 1024px;
-    padding: 40px 0px;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 20px;
-    
-}
-.img1{
-    width: 600px;
-    margin: 20px 10px 20px 30px;
-
-}
-.img2{
-    margin: 20px 10px 20px 0
-    ;
-}
-.img3{
-    color: #2f86d6;
-}
-.botao {
-    border: solid 1px #ffffff;
-    justify-content: center;
-    min-width: 220px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(204, 0, 255);
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-    align-items: center;
-    width: 20%;
-    height: 50px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 4px solid black;
-    animation: my-animation 5s infinite;}
-    
-
-    .botao:hover{
-        background-color: rgb(255, 0, 0);
-        color: rgb(0, 0, 0);
-        transform: scale(1.2)}
-
-nav{
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 8px solid rgb(255, 0, 0);
+    max-width: 1200px; 
+    margin: 20px 0;
     text-align: center;
-    display: block;
-    padding: 5px;
+}
+
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    max-width: 1200px; 
+}
+
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;
+    flex: 1 1 280px; 
+    max-width: 280px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.container-card-imagem img {
+    width: 100%; 
+    border-radius: 8px;
+}
+
+
+.card-info {
+    margin-top: 10px;
+}
+
+.card-info h2 {
+    color: #c2185b; 
+}
+
+
+.card-info p {
+    color: #e0e0e0; 
+}
+
+img{
+    width: 400px;
+    height: 200px;
 }
